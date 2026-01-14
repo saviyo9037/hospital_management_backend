@@ -1,6 +1,6 @@
 const mongoose=require('mongoose')
 const User = require('./usermodel')
-const doctor = require('./Doctor')
+const doctor = require('./doctor')
 // const patientsM = require('./PatientModel')
 const Patient = require('./PatientModel')
 
