@@ -1,0 +1,41 @@
+{
+  "Express 400 Response": {
+    "prefix": "res400",
+    "body": [
+      "return res.status(400).send();"
+    ],
+    "description": "Send a 400 Bad Request response"
+  },
+  "Express 500 Response": {
+  "prefix": "res500",
+  "body": [
+    "return res.status(500).json({",
+    "  error: error.error,",
+    "  message: error.message,",
+    "  stack: error.stack",
+    "});"
+  ],
+  "description": "Send a 500 Internal Server Error response"
+},
+  "Express 200 Response": {
+    "prefix": "res200",
+    "body": [
+      "return res.status(200).send();"
+    ],
+    "description": "Send a 200 OK response"
+  },
+  "Express 404 Response": {
+    "prefix": "res404",
+    "body": [
+      "return res.status(404).send();"
+    ],
+    "description": "Send a 404 Not Found response"
+  },
+  "Express 201 Response": {
+    "prefix": "res201",
+    "body": [
+      "return res.status(201).send();"
+    ],
+    "description": "Send a 201 Created response"
+  }
+}
