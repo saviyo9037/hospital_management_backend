@@ -1,6 +1,6 @@
 const PatientProfile = require("../models/PatientProfile");
 const Patient = require("../models/PatientModel");
-const User = require("../models/usermodel");
+const User = require("../models/userModel");
 
 const patientProfileController = {
   create: async (req, res) => {
