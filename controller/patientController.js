@@ -1,5 +1,5 @@
 const Patient = require("../models/PatientModel");
-const User = require("../models/userModel"); // Assuming User model is needed for population
+const User = require("../models/usermodel"); // Assuming User model is needed for population
 
 const patientController = {
   create: async (req, res) => {

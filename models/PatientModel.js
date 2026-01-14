@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const User = require('./userModel');
+const User = require('./usermodel');
 // const doctor = require('./Doctor');
 
 const patientmodel=new mongoose.Schema({
