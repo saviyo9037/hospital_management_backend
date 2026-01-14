@@ -1,5 +1,5 @@
 const DoctorProfile = require("../models/DoctorProfile");
-const Doctor = require("../models/Doctor");
+const Doctor = require("../models/doctor");
 
 const doctorProfileController = {
   create: async (req, res) => {

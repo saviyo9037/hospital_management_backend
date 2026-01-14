@@ -1,4 +1,4 @@
-const doctor = require('../models/Doctor');
+const doctor = require('../models/doctor');
 const DoctorProfile = require('../models/DoctorProfile'); // Import DoctorProfile model
 const User = require('../models/usermodel');
 require('dotenv').config();
